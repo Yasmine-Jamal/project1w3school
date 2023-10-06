@@ -1,0 +1,207 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana,sans-serif;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+body{
+    position: relative;
+}
+nav{
+    width: 100%;
+    background-color: #fff;
+    padding: 5px 0;
+    position: fixed;
+    top: 0;
+    letter-spacing: 3px;
+    z-index: 100;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); /* horizontal vertical spred color*/
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .container ul li{
+    display: inline-block;
+} 
+nav .container a{
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+}
+nav .container a:hover {
+    background-color: rgb(225, 225, 225);
+}
+#sec-1{
+    background: #fff url(../images/architect.jpg) no-repeat center ;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec-1 .text{
+    color: #fff;
+    font-size: 2rem;
+    letter-spacing: 8px;
+}
+#sec-1 .text span{
+    font-weight: bold;
+    padding:10px ;
+    background-color:rgba(0, 0, 0, 0.8) ;
+}
+/*//////////////////////////////////////////////////////////////*/
+#sec-2,#sec-3,#sec-4,#sec-5{
+    margin-top: 50px;
+}
+h3{
+    font-weight: 500;
+    margin-bottom: 15px;
+} 
+hr{
+    border: 1px solid rgb(242, 241, 241);
+    margin-bottom: 30px;
+
+}
+#sec-2 .houses{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+#sec-2 .houses div{
+    width: 24%;
+    height: 250px;
+    position: relative;
+    margin-bottom: 18px;
+}
+
+#sec-2 .houses span{
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+}
+#sec-2 .houses .house1{
+    background: url(../images/house5.jpg) center;
+}
+#sec-2 .houses .house2{
+    background: url(../images/house2.jpg) center;
+}
+#sec-2 .houses .house3{
+    background: url(../images/house3.jpg) center;
+}
+#sec-2 .houses .house4{
+    background: url(../images/house4.jpg) center;
+}
+#sec-2 .houses .house5{
+    background: url(../images/house2.jpg) center;
+}
+#sec-2 .houses .house6{
+    background: url(../images/house5.jpg) center;
+}
+#sec-2 .houses .house7{
+    background: url(../images/house4.jpg) center;
+}
+#sec-2 .houses .house8{
+    background: url(../images/house3.jpg) center;
+}
+/*//////////////////////////////////////////////////////////////*/
+#sec-3 .text{
+    margin-top: -10px;
+}
+#sec-3 .cards{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+#sec-3 .card{
+    width: 24%;
+}
+#sec-3 .card img{
+    width: 100%;
+    filter: grayscale(85%);
+}
+#sec-3 .card h4{
+    font-weight:100;
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+#sec-3 .card span{
+    color: rgb(164, 163, 163);
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#sec-3 .card button{
+    display: inline-block;
+    margin-top: 15px;
+    text-align: center;
+    background-color: rgb(242, 240, 240);
+    padding: 10px;
+    border: none;
+    width: 100%;
+    font-size: 1.1rem;
+}
+#sec-3 .card button:hover{
+    background-color: lightgray;
+}
+/*//////////////////////////////////////////////////////*/
+
+#sec-4 p{
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+#sec-4 input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    color: gray;
+    
+}
+#sec-4 button{
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#sec-4 button:hover{
+    background-color: #bdbdbd;
+    color: #000;
+    
+}
+/*//////////////////////////////////////////////////////*/
+#sec-5{
+    margin-bottom: 5px;
+}
+#sec-5 img{
+    width: 100%;
+}
+/*//////////////////////////////////////////////////////*/
+footer{
+    background-color: #000;
+    color: #fff;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    color: #fff;
+}
+footer a:hover{
+    color: #319139;
+}
+
+
+
+
